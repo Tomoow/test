@@ -1,0 +1,46 @@
+/**
+ * Design Tokens CSS Variables
+ * Semantic tokens mapped from base design tokens
+ */
+
+:root {
+  /* Color Tokens - Background */
+  --color-background-primary-default: #1F00FF;
+  --color-background-primary-hover: #1900CC;
+  --color-background-primary-active: #130099;
+  --color-background-primary-disabled: #8F80FF;
+
+  --color-background-neutral-default: #ffffff;
+  --color-background-neutral-hover: #f5f5f5;
+  --color-background-neutral-active: #e5e5e5;
+  --color-background-neutral-disabled: #cccccc;
+
+  /* Color Tokens - Text */
+  --color-text-on-primary-default: #ffffff;
+  --color-text-on-primary-disabled: #999999;
+
+  --color-text-on-neutral-default: #000000;
+  --color-text-on-neutral-disabled: #999999;
+
+  /* Spacing Tokens */
+  --spacing-xsmall: 4px;
+  --spacing-small: 8px;
+  --spacing-medium: 12px;
+  --spacing-large: 16px;
+  --spacing-xlarge: 24px;
+
+  --spacing-button-horizontal: 24px;
+  --spacing-button-vertical: 12px;
+
+  /* Radius Tokens */
+  --radius-small: 4px;
+  --radius-medium: 8px;
+  --radius-large: 12px;
+  --radius-button: 8px;
+
+  /* Typography Tokens */
+  --typography-button-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --typography-button-font-size: 16px;
+  --typography-button-font-weight: 500;
+  --typography-button-line-height: 1.5;
+}
